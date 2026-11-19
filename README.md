@@ -1,2 +1,57 @@
-# Cisco-Packet-Tracer-Labs
-Hands-on Cisco Packet Tracer practice labs: SSH, VLANs, inter-VLAN routing, DHCP, OSPF, port security, HSRP, WLC/WLAN, GRE VPN, RIP redistribution, PAgP , LACP and ACLs.
+# Cisco Packet Tracer Labs
+
+Hands-on Cisco Packet Tracer practice labs covering core CCNA-level networking topics, built while studying Cybersecurity at Asia Pacific University (APU). Each folder contains a `.pkt` file you can open and explore.
+
+![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-Packet%20Tracer-1BA0D7)
+![Labs](https://img.shields.io/badge/labs-9%20completed-brightgreen)
+![Level](https://img.shields.io/badge/level-CCNA-blue)
+
+## Skills Demonstrated
+
+- **Switching:** VLANs, trunking (802.1Q), port security, EtherChannel
+- **Routing:** OSPF, RIPv2, static routing, inter-VLAN routing (router-on-a-stick and Layer 3 SVI)
+- **Redundancy:** HSRP first-hop redundancy
+- **Services:** DHCP and DHCP relay, SSH secure remote access
+- **Wireless:** WLC and WLAN configuration
+- **Security and VPN:** ACLs, GRE tunnels
+
+## Labs
+
+| # | Lab | Topics |
+|---|-----|--------|
+| 01 | [SSH Configuration](01-ssh-config) | Domain name, RSA keys, local users, VTY lines |
+| 02 | [VLAN Configuration](02-vlan-config) | VLAN creation, access port assignment |
+| 03 | [Inter-VLAN and Trunk](03-intervlan-trunk) | 802.1Q trunking, router-on-a-stick |
+| 04 | [DHCP](04-dhcp) | Remote DHCP and relay across subnets |
+| 05 | [OSPF](05-ospf) | Dynamic routing with OSPF |
+| 06 | [Port Security](06-port-security) | MAC limiting, violation modes |
+| 07 | [Layer 3 Inter-VLAN Routing](07-layer3-intervlan) | SVIs on a Layer 3 switch |
+| 08 | [HSRP](08-hsrp) | Active/standby gateway redundancy |
+| 09 | [WLC and WLAN](09-wlc-wlan) | Wireless controller and WLAN setup |
+| 10 | GRE VPN, HSRP, RIP, PAgP and ACL | *Coming soon: write-up with configs and troubleshooting notes* |
+
+## Repository Structure
+
+```
+Cisco-Packet-Tracer-Labs/
+├── 01-ssh-config/
+├── 02-vlan-config/
+├── ...
+├── 09-wlc-wlan/
+└── README.md
+```
+
+## How to Use
+
+1. Install [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer).
+2. Open the `.pkt` file inside any lab folder.
+3. Inspect the topology and run `show running-config` or `show ip route` on the devices.
+
+## Related Projects
+
+- [Enterprise-Network-Design](https://github.com/tanmay1802-art/Enterprise-Network-Design): 4-branch enterprise network with OSPF, HSRP, EtherChannel, DHCP relay, IPv6 and Layer 2 security.
+
+## Author
+
+**Tanmay Sarkar Emon**, Cybersecurity student at APU, interested in network engineering and network security.
+GitHub: [tanmay1802-art](https://github.com/tanmay1802-art)
